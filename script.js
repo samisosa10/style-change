@@ -1,10 +1,10 @@
 const btnFonts = document.querySelector('.change-font-btn')
 const btnBackground = document.querySelector('.change-background-btn')
 const h1 = document.querySelector('h1')
-const optionGeorgia = document.querySelector('#option-georgia')
+const optionFiraSans = document.querySelector('#option-fira-sans')
 const optionTimesNewRoman = document.querySelector('#option-times-new-roman')
 const optionLucidaSans = document.querySelector('#option-lucida-sans')
-const optionSansSerif = document.querySelector('#option-sans-serif')
+const optionJosefiSans = document.querySelector('#option-josefi-sans')
 
 const colorH1Btn = document.querySelector('.change-h1-color')
 
@@ -54,21 +54,21 @@ colorH1Btn.addEventListener('click', () => {
 })
 
 
-optionGeorgia.addEventListener('click', () => {
+optionFiraSans.addEventListener('click', () => {
 
-    h1.classList.add('georgia')
+    h1.classList.add('fira-sans')
     h1.classList.remove('times-new-roman')
     h1.classList.remove('lucida-sans')
-    h1.classList.remove('sans-serif')
+    h1.classList.remove('josefi-sans')
 
 })
 
 optionTimesNewRoman.addEventListener('click', () => {
 
     h1.classList.add('times-new-roman')
-    h1.classList.remove('georgia')
+    h1.classList.remove('fira-sans')
     h1.classList.remove('lucida-sans')
-    h1.classList.remove('sans-serif')
+    h1.classList.remove('josefi-sans')
 
 }) 
 
@@ -76,17 +76,17 @@ optionLucidaSans.addEventListener('click', () => {
 
     h1.classList.add('lucida-sans')
     h1.classList.remove('times-new-roman')
-    h1.classList.remove('georgia')
-    h1.classList.remove('sans-serif')
+    h1.classList.remove('fira-sans')
+    h1.classList.remove('josefi-sans')
 
 })
 
-optionSansSerif.addEventListener('click', () => {
+optionJosefiSans.addEventListener('click', () => {
     
-    h1.classList.add('sans-serif')
+    h1.classList.add('josefi-sans')
     h1.classList.remove('lucida-sans')
     h1.classList.remove('times-new-roman')
-    h1.classList.remove('georgia')
+    h1.classList.remove('fira-sans')
 
 })
 

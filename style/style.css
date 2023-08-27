@@ -36,8 +36,8 @@
     
 }
 
-.georgia{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.fira-sans{
+    font-family: fira sans;
     
 }
 
@@ -49,8 +49,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.sans-serif{
-    font-family: sans-serif;
+.josefi-sans{
+    font-family: josefin sans;
 }
 
 .fonts-options{
